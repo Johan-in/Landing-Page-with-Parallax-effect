@@ -122,7 +122,7 @@ body{
     font-size: calc(var(--index) * 1.8);
     color: var(--text);
     font: inherit;
-    background-color:transparent;
+    background-color: rgba(0,0,0,0.3); 
     letter-spacing: calc(var(--index) / 7.5);
     transform: var(--main-article-transform);
     transition: var(--transition);
@@ -156,13 +156,13 @@ form {
     transform: var(--main-article-transform);
     transition: var(--transition);
     will-change: transform; 
+    background-color: rgba(0,0,0,0.2); 
     text-align: center;
     align-items: center;
     justify-content:center;
     position:center;
     padding: 20px;
     border: 1px solid  #333;
-    box-shadow: #9d822b;
     border-radius: 5px;
     
     
@@ -229,7 +229,8 @@ input[type="submit"] :hover {
     margin-top: 20px;
     margin-left: 10px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid  #333;
+    background-color: rgba(0,0,0,0.2);
     border-radius: 10px;
     text-align: center;
 
@@ -256,15 +257,18 @@ input[type="submit"] :hover {
 }
 
 button {
-    padding:  5px 8px;
+    padding:  7px 9px;
     margin-top: 12px;
     border: none;
     border-radius: 5px;
     font-size: 14px;
-    background-color: #333;
-    color: #fff;
+    color:#ddd;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.4); 
+    border: 1px solid  #333;
+    border-radius: 5px;
     cursor: pointer;
-    text-shadow: 0 0 15px #9d822b;
+    
     
 }
 
@@ -274,7 +278,10 @@ button:hover {
 }
 
 .read-status {
-    background-color:#9d822b;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.4); 
+    border: 1px solid  #333;
+    border-radius: 5px;
 }
 
 .content {
